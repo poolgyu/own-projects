@@ -1,0 +1,60 @@
+$body-bg: rgb(27, 26, 26);
+$body-color: white;
+$font-family-sans-serif: "Poppins", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container-fluid {
+  font-family: "Pacifico", cursive;
+}
+
+.motto {
+  color: black;
+}
+
+.navbar,
+.dropdown-menu {
+  background-color: $indigo-300;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-item:hover {
+  background-color: $indigo-400;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.9rem;
+    padding-left: 1.9rem;
+  }
+}
+
+.custombg {
+  background: black url(../assets/purple-nail.jpg);
+  background-size: cover;
+  fill-opacity: 0.4;
+  background-position-y: 2px;
+  background-position: 1px;
+}
+
+.card-body {
+  background: rgb(45, 42, 42);
+}
+
+.card {
+  border: $indigo-400 2px solid;
+  margin-top: 1.5rem;
+}
+
+.card-body p {
+  color: grey;
+}
+
+.card-img,
+.card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/0.7;
+}
